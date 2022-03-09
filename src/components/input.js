@@ -1,12 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-const Input = () => {
-  return (
-    <div>
-      {/* <div className='input'></div>
+const Input = () => (
+  <div>
+    {/* <div className='input'></div>
         <button>Add</button> */}
-    </div>
-  )
-}
+  </div>
+);
 
-export default Input
+export default Input;
