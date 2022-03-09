@@ -1,11 +1,12 @@
 import React from 'react';
-// import Input from './components/input'
+import Book from './components/Book';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi there Ryi</h1>
-
+      <Nav />
+      <Book />
     </div>
   );
 }
