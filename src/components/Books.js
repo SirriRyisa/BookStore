@@ -1,10 +1,12 @@
 import React from 'react';
+import BookList from './componentsbooks/BookList';
+import BookForm from './componentsbooks/BookForm';
 
 const Books = () => (
-  <div className="main-container">
-    <div className="books-container" />
-
-  </div>
+  <>
+    <BookList />
+    <BookForm />
+  </>
 );
 
 export default Books;

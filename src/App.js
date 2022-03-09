@@ -1,14 +1,17 @@
 import React from 'react';
-import Book from './components/Book';
-import Nav from './components/Nav';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import Books from './components/Books';
+import Categories from './components/Categories';
 
 function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <Book />
-    </div>
-  );
+  <Router>
+    <Header />
+    <Routes>
+      <Route path="/" exact element={<Books />} />
+      <Route path="/categories" element={<Categories />} />
+    </Routes>
+  </Router>;
 }
 
 export default App;
