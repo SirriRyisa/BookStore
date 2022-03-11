@@ -1,15 +1,17 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
+import profileIcon from '../images/profile-icon.png';
 
 const Header = () => (
   <header className="header">
-    <div className="header-container">
+    <div className="inside--header">
       <h1>BookStore CMS</h1>
-      <nav className="navigation">
-        <Link className="nav-items" to="/">BOOKS</Link>
-        <Link className="nav-items" to="/Categories">Categories</Link>
+      <nav className="nav--links">
+        <Link className="nav--item" to="/">BOOKS</Link>
+        <Link className="nav--item" to="/categories">CATEGORIES</Link>
       </nav>
     </div>
+    <img src={profileIcon} alt="profile icon" />
     <Outlet />
   </header>
 );

@@ -1,6 +1,6 @@
 import React from 'react';
-import BookList from './componentsbooks/BookList';
-import BookForm from './componentsbooks/BookForm';
+import BookList from './booksComponents/BookList';
+import BookForm from './booksComponents/BookForm';
 
 const Books = () => (
   <>

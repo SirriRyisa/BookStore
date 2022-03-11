@@ -2,8 +2,10 @@ import React from 'react';
 
 const Categories = () => (
   <>
-    <div className="categories">
-      <h2 className="categoery-heading">Page under Construction</h2>
+    <div className="categories--page">
+      <h2 className="categories--heading">
+        Page Still Under Construction
+      </h2>
     </div>
   </>
 );
